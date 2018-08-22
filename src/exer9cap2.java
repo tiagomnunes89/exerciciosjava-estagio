@@ -8,7 +8,7 @@ public class exer9cap2 {
         do {
             System.out.println("Digite um número para ser invertido:");
             numero = sc.nextInt();
-            if(numero <10000){
+            if(numero <10000 && numero > 0){
                 // Não usei String pq ainda não tem String neste capítulo
                 int i = 0;
                 while (numero > 0) {
